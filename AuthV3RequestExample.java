@@ -7,7 +7,7 @@ public class AuthV3RequestExample
     public static void main(String[] args) throws Exception
     {
         // Создаем ссылку и HTTP-Клиент
-        URL obj = new URL("https://api.mcskill.net/v2/economy/get?username=Dev1lroot");
+        URL obj = new URL("https://api.{your_domain}.net/v2/economy/get?username=Dev1lroot");
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
         // Устанавливаем для него метод запроса и заголовок с нашим ключом
