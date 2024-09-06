@@ -1,6 +1,6 @@
 import java.net.HttpURLConnection;
 import java.net.URL;
-import fr.dev1lroot.libcrypto.GenerateSHA256;
+import fr.dev1lroot.libcrypto.GenerateSHA256; // Вам нужна своя либа для этой задачи
 
 public class AuthV3RequestExample
 {
